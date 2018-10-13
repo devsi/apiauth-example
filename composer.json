@@ -1,0 +1,18 @@
+{
+    "name": "simonwillan/authapi",
+    "description": "Auth API Test Server",
+    "require": {
+        "slim/slim": "^3.11"
+    },
+    "authors": [
+        {
+            "name": "Simon Willan",
+            "email": "swillan@gonetcoins.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AuthApi\\": "app/"
+        }
+    }
+}
